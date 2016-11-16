@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo 1 - Javascript</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+	//alert("oi")
+	</script>
+</head>
+<body>
+	<button id="botao1">Clique no botão</button>
+	<button id="botao2">Mouse OUT</button>
+	<button id="botao3">Mouse OVER</button>
+	<button id="botao4">Mouse FOCUS</button>
+	<button onclick="this.innerHTML='Feito!'">Clique aqui</button>
+	<button onclick="aham(this)">Clique aqui OBJ</button>
+
+
+
+	<script type="text/javascript">
+
+	function aham(obj){
+		obj.innerHTML = "Feito!";
+		obj.style="background-color:#AA4545";
+	}
+	document.getElementById("botao1").onclick = function(){
+		alert("Você clicou no botão! Parabéns!");
+			}
+
+	document.getElementById("botao2").onmouseout = function(){
+		alert("MOUSE OUT!");
+	}
+
+	document.getElementById("botao3").onmouseover = function(){
+		alert("MOUSE OVER!");
+	}
+
+	document.getElementById("botao4").onfocus = function(){
+		alert("MOUSE FOCUS!");
+	}
+
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html  lang="pt-br">
+	<head>
+		<title>Gmail</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Reprodução da página inicial do Gmail">
+
+
+		<!-- FavIcon -->
+
+		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Fim FavIcon -->
+
+
+		<style type="text/css">
+
+
+		div, h1{
+			text-align: center;
+			font-family: sans-serif;
+		}
+		
+		a {
+			color: #4D90FE;
+			text-decoration: none;
+			font-family: sans-serif;
+		}
+
+		a:hover {
+			text-decoration: underline;
+
+		}
+
+		input{
+			width: 275px;
+			height: 36px;
+			font-size: 16px;
+
+		}
+
+		input:hover {
+		
+		margin: #2F5BB7;
+		}
+
+		input[type=text]:focus {
+
+			background-color:white;
+   			width: 275px;
+			height: 36px;
+    		box-shadow: 0px 1px 1px 1px #f2f2f2 inset;
+
+  		
+  		}
+
+		
+		input[type=submit]{
+  			border: 0 none;
+  			outline: 0;
+      		background-color: #4D90FE;
+			margin-top: 8px;
+			margin-bottom: 10px;
+			color: #FFFFFF;
+			font-size: 15px;
+			border-style: solid;
+			border-width: 1px;			
+			border-radius: 5px;
+			width: 275px;
+			height: 45px;
+			text-align: center;
+			font-weight: bold;
+			border-color: #3079ED;
+
+		}
+
+		input[type=submit]:hover {
+			background: #4185F3;
+			border-color: #2F5BB7;
+			border-style: solid;
+			border-width: 1px;
+			
+		}
+
+		.principal {
+
+			text-align: center;
+		}
+
+		/* Logo do Google*/
+		.letraazul {
+			color: #4285F4;
+		}
+
+		.letravermelha {
+			color:#EA4335;
+		}
+		#letraamarela {
+			color:#FBBC05;
+		}
+
+		#letraverde {
+			color: #34A853;		
+		}
+
+		/* Fim do logo do Google*/
+
+		#parag1 {
+
+			color: #555555;
+			font-family: sans-serif;
+			font-size: 29px;
+			padding: 1%;
+		}
+		
+		#parag2 {
+			font-family: sans-serif;
+			color:#555555;
+			font-size: 18px;
+			padding-bottom: 15px; 
+		}
+
+		/* Quadrado central do login*/
+		#boneco {
+
+			padding-top: 20px;
+		}
+		#login {
+			display: inline-block;
+			background-color: #F7F7F7;
+			width: 355px;
+			height: 320px;
+			border-radius: 5px;
+			box-shadow: 0px 1px 1px 0px #B5B5B5;
+		}
+
+		#ajuda {
+
+			font-family: sans-serif;
+			text-align: right;
+			padding: 1px;
+			padding-right: 12%;
+			font-size: 14px;
+			color: #4D90FE;
+		}
+		/* Fim login*/
+
+		.baixo {
+			display: inline-block;
+			color:#555555;
+			font-size: 15px;
+			margin: 15px;
+			width: 355px;
+		}
+
+		/*rodapé*/
+		#rodape {
+
+			position: absolute;
+			top:96%; 
+			height: 50px;			
+			width: 97%;
+			text-align: left;
+			box-shadow: 0px 0px 1px 0px #B5B5B5;
+			
+			}
+
+		.final {
+			font-size: 11px;
+			padding: 10px;
+			color: #767676;
+
+		}
+
+
+		</style>
+	</head>
+
+	<body>
+		<div id="principal">
+			<div>
+				<h1><span class="letraazul">G</span><span class="letravermelha">o</span><span id="letraamarela">o</span><span class="letraazul">g</span><span id="letraverde">l</span><span class="letravermelha">e</span></h1>
+			</div>
+
+			<div id="parag1">Apenas uma conta. Tudo o que o Google oferece. </div>
+			
+
+			<div id="parag2">Fazer login para prosseguir para o Gmail</div>
+
+
+			<div id="login">
+
+				<figure>
+					<img src="boneco.png" alt="Imagem de um boneco estilizado" id="boneco">
+				</figure>
+
+				<form action="#" method="get" name="">
+					<div>
+						<input type="text" name="txtemail" placeholder="Insira seu e-mail"  autofocus="autofocus" required="true" >
+					</div>
+
+					<div>
+						<input type="submit" value="Próximo" name="btnproximo">
+					</div>
+
+					<div id="ajuda"><a href="https://accounts.google.com/RecoverAccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ignoreShadow=0&hl=pt-BR"> Precisa de ajuda?</a></div>
+				</form>
+			
+
+			</div>
+
+
+
+			<div><!-- Essa div entra aqui para organizar a parte de baixo da página--></div>
+
+			<div class ="baixo"> <a href="https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=pt-BR"> Criar uma conta </a></div>
+				
+			<div><!-- Essa div entra aqui para organizar a parte de baixo da página--></div>
+			
+				
+			<div class ="baixo">Uma Conta do Google para tudo o que o Google oferece.</div>
+			</div>
+			<div><img src="googles.png"></div>
+
+			<div id="rodape"> <a href="https://www.google.com/intl/pt-BR/about" class="final"> Sobre o Google </a> <a href="https://accounts.google.com/TOS?loc=BR&hl=pt-BR&privacy=true" class="final"> Privacidade </a> <a href="https://accounts.google.com/TOS?loc=BR&hl=pt-BR" class="final"> Termos </a> <a href="http://www.google.com/support/accounts?hl=pt-BR" class="final"> Ajuda </a></div>
+
+
+		</div>
+
+
+	</body>
+</html>

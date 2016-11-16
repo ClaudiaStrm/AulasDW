@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+	<html>
+	<head>
+		<title>Exemplo 6 - JavaScript</title>
+		<meta charset="UTF-8">
+	</head>
+
+	<body>
+		<form>
+
+			<input type="text" id="txtnome" placeholder="Nome">
+			<input type="text" id="txtsobrenome" placeholder="Sobrenome">
+			<input type="text" id="txtidade" placeholder="Idade">
+			<button id="botao">Informar</button>
+		</form>
+
+
+		<script type="text/javascript">
+
+			document.getElementById("botao").onclick = function(){
+				var nome =document.getElementById("txtnome").value;
+				var sobrenome =document.getElementById("txtsobrenome").value;
+				var idade =document.getElementById("txtidade").value;
+
+				alert("Seu nome completo é: "+nome +" " +sobrenome +" e você tem " +idade +" anos.");
+			}
+
+			
+
+		</script>
+
+	</body>
+</html>

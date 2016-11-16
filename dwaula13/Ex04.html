@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo 4 - JavaScript</title>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<button id="botao">Ver nome</button>
+	<button id="botao1">Ver nome DIV</button>
+	<div id="resultado"></div>
+
+	<script type="text/javascript">
+		document.getElementById("botao").onclick = function(){
+			var msg="Seja bem-vindo";
+			alert(msg);
+		}
+
+		document.getElementById("botao1").onclick = function(){
+			var msg1="<h1>Ué.</h1>";
+			document.getElementById("resultado").innerHTML = msg1;
+		}
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

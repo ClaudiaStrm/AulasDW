@@ -1,0 +1,40 @@
+/*GERAL + MEDIA QUERIES */
+
+body {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #F55667;
+}
+#div1, #div2 {
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	display: inline-block;
+}
+
+/* amarelo */
+@media screen and (min-width: 480px) {
+	body {
+		background-color: #FFEB3B;
+	 }
+
+/* laranja */
+@media screen and (min-width: 481px) {
+	body {
+		background-color: ##FF9800;
+	 }
+
+/* verde */
+@media screen and (min-width: 992px) {
+	body {
+		background-color: #4CAF50;
+	 }
+
+/* azul */
+@media screen and (min-width: 1200px) {
+	body {
+		background-color: #03A9F4;
+	 }
+/*fecha @media screen*/
+}

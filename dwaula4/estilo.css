@@ -1,0 +1,30 @@
+/* CSS */
+
+body {
+
+	background-color: #EF8F77;
+}
+
+.lista1 {
+
+	list-style-type: disc;
+}
+
+.lista2 {
+
+	list-style-type: armenian;
+}
+.listaimg {
+
+	list-style-image: url(kill.png); 
+
+}
+
+#parag{
+	background-color: #5887E6;
+	text-indent: 50px; 
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: 25px;
+
+}

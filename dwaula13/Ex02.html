@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo 2 - JavaScript</title>
+	<meta charset="UTF-8">
+</head>
+
+<body onload="verificarCookies()">
+	<h1>Testando cookies do navegador!</h1>
+
+	<script type="text/javascript">
+		function verificarCookies(){
+			if(navigator.cookieEnabled == true){
+				alert("COOKIES SÃO PERMITIDOS!" +
+				"\nnome do browser: " +navigator.appName +
+				"\nlang do browser: " +navigator.language);
+
+				/*appCodeName, appVersion, geolocation, platform, product, userAgent, onLine*/
+			}else{
+			alert("COOKIES NÃO SÃO PERMITIDOS!")
+		}//fecha else
+	}//fecha function
+
+
+
+
+
+
+
+	</script>
+
+
+
+</body>
+</html>

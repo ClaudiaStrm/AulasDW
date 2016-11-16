@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo 3 - JavaScript</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+
+		div {
+			background-color: #D94A38;
+			width: 200px;
+			height: 200px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div onmousedown="mDown(this)" onmouseup="mUp(this)">Clique aqui</div>
+
+	<script type="text/javascript">
+		function mDown(obj) {
+			console.log("down");
+			obj.innerHTML="Você está clicando!";
+			obj.style="background-color: #AAEE66";
+		}
+
+		function mUp(obj) {
+			console.log("up");
+			obj.innerHTML="Soltou o dedo do mouse!!";
+			obj.style="background-color: #C678E3";
+		}
+
+
+
+
+
+
+
+	</script>
+
+
+
+</body>
+</html>

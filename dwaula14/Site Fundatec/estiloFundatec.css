@@ -1,0 +1,43 @@
+ /*CSS*/
+
+	footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    }
+
+  h1 { 
+    background-color: #3D71B4;
+    font-family: serif;
+    color: #f2f2f2;
+
+    }
+
+    .h1fundatec {
+
+      background-color: #FFFFFF;
+    }
+
+    .carousel-inner img {
+	  /*width: 50%; /* Set width to 100% */
+	  margin: auto;
+	  min-height:200px;
+  	}
+
+  	/* Hide the carousel text when the screen is less than 600 pixels wide */
+  	@media (max-width: 400px) {
+    .carousel-caption {
+    display: none;
+    }
+
+     #FundatecCentral{
+
+      font-family: serif;
+      color: #559988;
+      
+
+    }
+
+    #DDDtelefone1{
+
+        width: 75px;
+      }

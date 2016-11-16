@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Aula 3 - JavaScript</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form>
+			<div>
+				<label>Valor1: <input type="number" id="val1"></label>
+			</div>
+		</form>
+
+		<form>
+			<div>
+				<label>Valor2: <input type="number" id="val2"></label>
+			</div>
+		</form>
+
+		<fieldset>
+			<legend>Operações</legend>
+			<div><input type="radio" name="rdcalc" value="somar">Somar</div>
+			<div><input type="radio" name="rdcalc" value="subtrair">Subtrair</div>
+			<div><input type="radio" name="rdcalc" value="multiplicar">Multiplicar</div>
+			<div><input type="radio" name="rdcalc" value="dividir">Dividir</div>
+		</fieldset>
+
+		<input type="button" onclick="calcular()" id="botao" value="Calcular">
+
+		<!--Aqui vai o resultado!-->
+
+		<div id="resultado"></div>
+
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

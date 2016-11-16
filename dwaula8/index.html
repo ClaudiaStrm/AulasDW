@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+
+			textarea {
+
+				resize: none;
+				width: 30%;
+				height: 100px;
+
+			}
+
+			input, label {
+
+				background-color: #FF5576;
+				color: #DDFF44;
+			}
+
+			.label1{
+
+				display: block;
+
+			}
+
+			.botao{
+
+				background-color: #292928;
+				color: #BBFF55;
+				font-size: 15px;
+				border-radius: 10px;
+				font-weight: 500;
+			}
+
+			form {
+
+				background-color: #889900;
+				padding: 4%;
+				margin: 0 auto;
+				width: 50%;
+			}
+
+			h1{
+				text-align: center;
+				color: #3366BB;
+				
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+		<h1>Exemplo de formulário</h1>
+
+		<form action="#" method="get" name="">
+			<div>
+				<label>Nome</label>
+				<input type="text" name="txtnome" placeholder="Nome"  autofocus="autofocus" required="true" >
+			</div>
+			<div>
+				<label>Sexo</label>
+				<select name="selsexo">
+					<option value="Fem">Feminino</option>	
+					<option value="Masc">Masculino</option>	
+					<option value="Outros">Outros</option>	
+					<option selected="selected">Selecione</option>
+				</select>
+			</div>
+
+			<div>
+				<label>Selecione seu estado civil:</label>
+			</div>
+
+			<div>
+
+				<label><input type="radio" value="casado" name="rdestadocivil">casado</label>
+				<label><input type="radio" value="solteiro" name="rdestadocivil">solteiro</label>
+				<label><input type="radio" value="viuvo" name="rdestadocivil">viúvo</label>
+
+			</div>
+
+			<div>
+				<label>Observação: </label>
+			</div>
+
+			<div>
+				<textarea name="txtobservação" pattern=""></textarea>
+			</div>
+
+			<div>
+				<label class="label1"><input type="checkbox" name="checkmanga" value="Mangá">Mangá</label>
+				<label class="label1"><input type="checkbox" name="checkanime" value="Anime">Anime</label>
+				<label class="label1"><input type="checkbox" name="checkhq"value="HQ">HQ</label>
+				<label class="label1"><input type="checkbox" name="checkrevista"value="Revista">Revista</label>
+
+			</div>
+
+			<div>
+				<input type="submit" value="Cadastrar" name="btncadastrar" class="botao">
+				<input type="reset" value="Limpar" name="btnbotao" class="botao">
+				<input type="button" name="btnnada"  value="Botão sem ação" class="botao">
+
+
+			</div>
+
+		</form>
+
+	</body>
+</html>

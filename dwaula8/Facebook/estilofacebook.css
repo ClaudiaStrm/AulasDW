@@ -1,0 +1,248 @@
+/*ESTILO FACEBOOK */
+
+/* CABEÇALHO */
+
+#divmae {
+	background-color: #3B5998;
+	font-family: sans-serif;
+	border-bottom: 1px solid #133783;
+	margin-color: #FF55DD;
+	width: 1350px;
+	height: 83px;	
+}
+#premero {
+	float: left;
+	margin-left: 200px;
+	width: 400px;
+	height:  33px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold; 
+	padding-top: 30px;
+}
+#container {
+	float: right;
+	width:570px;
+	height: 83px;
+	margin-right: 50px;
+}
+#left{
+	float:left; 
+	width: 150px;
+	height: 63px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#right{
+	float:right;
+	width: 150px;
+	height: 63px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold; 
+	padding-top: 12px;
+	padding-right: 25px;
+}
+#center{
+	margin:0 auto;
+	width: 150px;
+	height: 63px;
+	padding-top: 15px;
+}
+.labellogin {
+
+	display: block;
+	text-align: left;
+	color: white;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+#esqueceu {
+
+	display: block;
+	text-align: left;
+	color: #9CB4D8;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+/* FIM DO CABEÇALHO */
+
+#divcorpo {
+	background: linear-gradient(#FFFFFF, #D3D8E8);
+	width: 1350px;
+	height: 620px;
+	color: #1D2129; 
+	font-family: sans-serif;
+}
+
+/*METADE ESQUERDA CADASTRO*/
+
+#primeirametade {
+		float: left;
+		width: 650px;		
+		text-align: center;
+		padding-left: 50px;
+		padding-top: 50px;
+}
+#agradecemos {
+		font-size: 30px;
+		color: #3B5998;
+		padding-bottom: 20px;
+		padding-left: 150px;
+		width: 350px;
+		text-align: center;
+	
+}
+#esperamos {
+		font-size: 22px;
+		padding-bottom: 20px;
+		padding-left: 150px;
+		width: 350px;
+		text-align: center;
+		color: 333333;
+}
+
+/*FIM METADE ESQUERDA CADASTRO*/
+
+/*METADE DIREITA CADASTRO*/
+
+#cadastro {
+	padding-left: 8px;
+	font-size: 38px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#gratuito {
+	padding-left: 8px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+
+
+
+		
+
+			.cabecalho {
+				display: inline-block;
+				background-color:  #000099;
+				color: #fff;
+				height: 120px;
+			}
+
+			.login {
+				display: inline-block;
+				position:relative
+
+			}
+
+			.entrada {
+				display: block;
+				background:#fff;
+				border-color:#e9ebee #dfe0e4 #d0d1d5;
+				border-radius:2px;
+				width: 400px;
+				height: 39px;
+				font-size: 16px;
+				margin: 6px;
+				border-radius: 5px;
+				border-style: solid;
+				border-color: #BDC7D8;
+				border-width: 1px 1px 1px 1px;
+				
+
+			}
+
+			.nomesobrenome {
+
+				display: inline-block;
+				width: 190px;
+				margin-right: 8px;
+				height: 39px;
+				font-size: 16px;
+				margin: 6px;
+				border-radius: 5px;
+				border-color: #BDC7D8;
+				border-width: 1px;
+				border-style: solid;
+			}
+
+			#meio {
+		
+
+				background: linear-gradient(#FFFFFF, #D3D8E8)
+				
+			}
+
+			.imagem {
+				text-align: center;
+				display: block;
+				width: 48%;
+			}
+			.metade {
+				display: inline-block;
+				width: 48%;
+			}
+			#metade1 {
+				text-align: center;
+			}
+
+			.diamesano {
+				display: inline-block;
+			}
+
+			.aniver {
+
+				display: block;
+			}
+
+			.inputfemmasc {
+				width: 50px;
+				height: 13px;
+				margin: 6px;
+				font-family: sans-serif;
+				
+			}
+			.labelfemasc {
+
+				font-family: sans-serif;
+				font-size: 20px;
+			}
+
+			.diamesano {
+
+
+			}
+
+			.pqinformar {
+
+				text-align: left;
+				font-size: 11px;
+			}
+
+			
+
+			#btncadastro {
+
+				
+	      		background-color: #609C4D;
+				margin-top: 8px;
+				margin-bottom: 10px;
+				color: #FFFFFF;
+				font-size: 18px;			
+				width: 250px;
+				height: 45px;
+				text-align: center;
+				font-weight: bold;
+				border-radius: 5px;
+				border-color: #BDC7D8;
+				border-width: 1px;
+				border-style: solid;
+			}
+
+
+

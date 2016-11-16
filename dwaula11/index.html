@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+	<html  lang="pt-br">
+		<head>
+			<title>Exemplo 1 Bootstrap</title>
+			<meta charset="UTF-8">
+
+			<!--BOOTSTRAP -->
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="css/estilo.css">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		</head>
+		<body>
+			<div class="container-fluid">
+
+				<header class="page-header">
+					<p>Exemplo BootStap</p>
+				</header>
+
+				<div class="jumbotron">
+				<!--Formulario inline -->
+					<form class="form-inline" role="form">
+						<div class="form-group">
+							<label>Nome</label>
+							<input type="text" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label>Email</label>
+							<input type="email" class="form-control">
+						</div>
+
+						<button type="submit" class="btn btn-primary">Enviar</button>
+						<button type="reset" class="btn btn-danger">Limpar</button>
+
+					</form>
+				</div><!--DIV DO JUMBOTRON -->
+
+				<div class="page-header">
+					<p>Exemplo de formulário vertical</p>
+				</div>
+
+				<div class="jumbotron">
+					<form role="role">
+						<div class="form-group">
+							<label class="sr-only">Nome</label>
+							<input type="text" placeholder="Nome" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label class="sr-only">Email</label>
+							<input type="email" placeholder="email" class="form-control">
+						</div>
+
+						<a class="btn btn-success">Enviar</a>
+						<a class="btn btn-warning">Limpar</a>
+					
+					</form>
+				</div> <!--Jumbotron form vertical-->
+
+
+				<div class="page-header">
+					<p>Exemplo de formulário horizontal</p>
+				</div>
+
+				<div class="jumbotron">
+					<form class="form-horizontal" role="role">
+						<div class="form-group">
+							<label class="control-label col-sm-2">Nome</label>
+							<div class="col-sm-10"><input type="text" class="form-control">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-2">Email</label>
+							<div class="col-sm-10"><input type="email" class="form-control">
+							</div>
+							
+						</div>
+
+						<button class="btn btn-primary btn-xs">Enviar</button>
+						<button class="btn btn-info btn-xs">Limpar</button>
+					
+					</form>
+				</div> <!--Jumbotron form horizontal-->
+
+
+				<div class="page-header">
+					<p>Exemplo de grupo de botões</p>
+				</div>
+
+				<!--<div class="btn-group-vertical">-->
+				<div class="btn-group btn-group-justified">
+					<div class="btn-group">
+						<button type="buttom" class="btn btn-primary">Home</button>
+					</div>
+					<div class="btn-group">
+						<button type="buttom" class="btn btn-primary">Artigos</button>
+					</div>
+					<div class="btn-group">
+						<button type="buttom" class="btn btn-primary">Sobre</button>
+					</div>
+				</div> <!--BOTÕES-->
+
+				<div class="page-header">
+					<p>Exemplo de menu dropdown</p>
+				</div>
+
+				<div class="btn-group">
+					<button type="buttom" class="btn btn-primary">Home</button>
+					<button type="buttom" class="btn btn-primary">Artigos</button>
+					<div class="btn-group">
+						<button type="buttom" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>Disc</button>
+					
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#"> DW</a></li>
+							<li><a href="#"> MDS</a></li>
+							<li><a href="#"> TP</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+
+
+			
+
+
+				<footer class="jumbotron">
+					<p>Rodapé</p>
+				</footer>
+
+			</div> <!--CONTAINER-->
+
+
+
+			<!-- JQUERY NECESSÁRIO PARA BOOTSTRAP -->
+
+			<script src="js/jquery-3.0.0.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+		</body>
+	</html>
